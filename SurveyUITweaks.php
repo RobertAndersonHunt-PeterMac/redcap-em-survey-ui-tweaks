@@ -536,7 +536,7 @@ class SurveyUITweaks extends \ExternalModules\AbstractExternalModule
         <script type = "text/javascript">
             $(document).ready(function () {
                 var newval = "<?php echo $name ?>";
-                $("button:contains(<?php echo $lang['data_entry_213']; ?>)").text(newval);
+                $("button:contains(<?php echo $lang['data_entry_536']; ?>)").text(newval);
                 $("tr.surveysubmit").css({"opacity": 1});
 
                 if($("button:contains(newval)")) {
@@ -559,7 +559,7 @@ class SurveyUITweaks extends \ExternalModules\AbstractExternalModule
         <script type = "text/javascript">
             $(document).ready(function () {
                 var newval = "<?php echo $name ?>";
-                $("button:contains(<?php echo $lang['data_entry_214']; ?>)").text(newval);
+                $("button:contains(<?php echo $lang['data_entry_537']; ?>)").text(newval);
                 $("tr.surveysubmit").css({"opacity": 1});
 
                 if($("button:contains(newval)")) {
